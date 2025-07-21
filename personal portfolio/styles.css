@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.hr{
+    border: none;              /* Removes default styling */
+    height: 5px;               /* Thickness of the line */
+    background-color: #0d6efd; /* New color (e.g. Tech Blue) */
+    
+
+}
+
+.navbar{
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 75px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#2a2f33;
+    padding: 14px 24px;
+    position: fixed;
+    overflow-x: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #f8f9fa;
+    padding: 20px;
+    font-family: Inter sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.welcome-division{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: aliceblue;
+    font-size: 36px;
+    font-family: Bebas Neue, sans-serif;
+}
+
+.projects-division{
+    
+    background-color: #343a40;
+}
+    
+
+.Project-title{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    
+    color: aliceblue;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+.project-image{
+    width: 365px;
+    height: 400px;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+
+.Project-name{
+    background-color: #f8f9fa;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: Lora,  sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2a2f33;
+}
+
+.link{
+     text-decoration: none;
+}
+
+.btn{
+    width: 135.219px;
+    height: 44.5208px;
+    padding: 9.28px 18.56px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: rgb(69, 86, 125);
+    font-size: 18.56px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25.984px;
+    color: rgb(240, 240, 240);
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.Contact{
+    background-color: #F5F5DC;
+    text-align: center;
+    padding: 75px;
+    
+}
+
+.text{
+    font-family: Bebas Neue, serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.icon{
+    width: 60px;
+
+}
+
+.giticon{
+    height: 70px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icontext{
+    font-size: 36px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
